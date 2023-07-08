@@ -29,7 +29,7 @@ def submit_form(request):
             # Generate email body
             email = request.POST.get('email')
             
-            email_body = f"Dear <your name> {email},\n\n <Your message> \n We will get back to you asap \nBest regards, Rauf Mekhraliev!"
+            email_body = f"Dear <your name> {email},\n\n <Your message> \n Thank you for logging in! \nBest regards, Rauf Mekhraliev!"
             
             # Send email
             send_mail(
